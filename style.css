@@ -1,0 +1,44 @@
+body{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+    background-image: linear-gradient(to right top, #060609, #22172c, #491c44, #78144b, #a70042, #bb0044, #cf0046, #e30046, #e50068, #d60094, #a900c7, #0920f9);
+  }
+  
+  
+  #container{
+      width: 400px;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  
+      background-image: linear-gradient(to right top, #103bc6, #0071e8, #0095de, #00b3ba, #00cb96, #00d77d, #2ee256, #5fea00, #7aee00, #91f200, #a6f500, #baf909);
+      height:200px;
+  }
+  
+  
+  
+  button{
+      width:50px;
+      height:50px;
+      margin:10px;
+  }
+  
+  button:hover{
+      cursor: pointer;
+  }
+  
+  #pink__btn{
+      background-color: rgb(253, 9, 253);
+  }
+  
+  #orange__btn{
+      background-color: rgb(250, 59, 11);
+  }
+  
+  #violet__btn{
+      background-color: rgb(114, 4, 77);
+  }
